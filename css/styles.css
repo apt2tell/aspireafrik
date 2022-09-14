@@ -111,17 +111,6 @@ p {
   padding-left: 2rem;
 }
 
-.headline {
-  background: url(./images/txt1-clip.png);
-  -webkit-background-clip: text;
-  color: transparent;
-  font: 100% "cocogoose", sans-serif;
-  font-size: 2.5rem;
-  margin-bottom: 2px;
-  line-height: 35px;
-  padding-left: 2rem;
-}
-
 .event-desc {
   font: 100% "lato", sans-serif;
   font-size: 1.2rem;
@@ -559,14 +548,14 @@ body {
 .edition-2021 {
   width: 75%;
   padding: 1rem;
-  background: linear-gradient(to right, rgba(160, 11, 11, 0.7), rgba(160, 11, 11, 0.7)), url("./images/edition2021.png") no-repeat;
+  background: linear-gradient(to right, rgba(160, 11, 11, 0.7), rgba(160, 11, 11, 0.7)), url("/images/edition2021.png") no-repeat;
   background-size: cover;
 }
 
 .edition-2020 {
   width: 75%;
   padding: 1rem;
-  background: linear-gradient(to right, rgba(160, 11, 11, 0.7), rgba(160, 11, 11, 0.7)), url("./images/edition2020.png") no-repeat;
+  background: linear-gradient(to right, rgba(160, 11, 11, 0.7), rgba(160, 11, 11, 0.7)), url("/images/edition2020.png") no-repeat;
   background-size: cover;
 }
 
@@ -594,7 +583,7 @@ body {
 
 /*
 -----------------------------------------
-Styles about page media query begins here
+Styles for about page media query begins here
 ==========================================
 */
 @media (min-width: 768px) {
