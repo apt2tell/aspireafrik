@@ -1,0 +1,130 @@
+@use 'style';
+
+body {
+    display: grid;
+    grid-template-areas:
+    'menubar'
+    'header'
+    'article'
+    'main'
+    'footer'
+    '.sponsors'
+    '.imprint';
+}
+
+$myBlack: #272a31;
+$myRed: #ec5242;
+$myGrey: #d3d3d3;
+
+$myBaseFont: 100% 'lato', sans-serif;
+$mySecondFont: 100% 'cocogoose', sans-serif;
+
+main {
+  background: #fff;
+  color: #272a31;
+}
+.main-program {
+  color: #272a31;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.main-desc {
+  text-align: center;
+}
+.main-info {
+  text-align: center;
+  padding: 2rem;
+}
+.sponsor .main-program {
+  color: #fff;
+}
+.contact-us {
+  font-size: .9rem;
+  text-align: center;
+  padding: 2rem;
+}
+.about-headline {
+  font: $mySecondFont;
+  font-size: 2.5rem;
+  text-align: center;
+  color: $myRed;
+  line-height: 50px;
+}
+.greeting2 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: $myRed;
+}
+.edition-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.edition-2021 {
+  width: 75%;
+  padding: 1rem;
+  background:  linear-gradient(to right, rgba(160, 11, 11, 0.7), rgba(160, 11, 11, 0.7)), url('./images/edition2021.png') no-repeat;
+  background-size: cover;
+}
+.edition-2020 {
+  width: 75%;
+  padding: 1rem;
+  background:  linear-gradient(to right, rgba(160, 11, 11, 0.7), rgba(160, 11, 11, 0.7)), url('./images/edition2020.png') no-repeat;
+  background-size: cover;
+}
+
+.edition-desc {
+  color: #fff;
+  text-align: center;
+}
+
+footer {
+  padding-bottom: 2.5rem;
+}
+.prev-year {
+  font: $myBaseFont;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.prev-venue {
+  font: $myBaseFont;
+  font-size: 1.2rem;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*
+-----------------------------------------
+Styles about page media query begins here
+==========================================
+*/
+
+@media (min-width: 768px) {
+  .about-headline {
+    font-size: 3rem;
+    line-height: 50px;
+    padding-left: 4.5rem;
+  }
+  .greeting2 {
+    display: none;
+  }
+  .event-desc {
+    background: #fafafa;
+  }
+  .edition-container {
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+  }
+  main {
+    border-bottom: 1px solid $myGrey;
+  }
+  .sponsor {
+    margin-top: 4rem;
+  }
+}
