@@ -6,7 +6,14 @@
 
 ## Underneath are attached snapshoots of the web interfaces
 
-
+[screenshoot]('./images/homepage-desktop.png')
+[screenshoot]('./images/desktop-main.png')
+[screenshoot]('./images/partners.png')
+[screenshoot]('./images/speakers-desktop.png')
+[screenshoot]('./images/mobile-bg.png')
+[screenshoot]('./images/mobile-main.png')
+[screenshoot]('./images/mobile-menu.png')
+[screenshoot]('./images/mobile-view.png')
 
  ## Learning objectives
 
