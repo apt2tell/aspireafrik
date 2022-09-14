@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4166e58f6f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>AspireAfrik: Web Development Course </title>
+</head>
+<body>
+   <nav >
+        <div class="desktop">
+            <a href="#"><span class="fa-brands fa-github"></span></a>
+            <a href="#"><span class="fa-brands fa-twitter"></span></a>
+            <a href="#">English</a>
+            <a href="#">My Page</a>
+            <a href="#">Logout</a>
+        </div>
+        <div class="hamburger">
+            <a href="#" onclick="toggleMobileMenu()"><img src="./images/hamburger.svg" alt="hamburger"></a>
+        </div>
+
+        <!-- Here begins the overlay for the mobile menu -->
+
+            <div class="mobile-menu" id="mobile">
+            </div>
+
+        <div class="desktop-menu">
+            <div class="desktop-logo">
+                <a href="./"><img src="./images/my-logo.png" alt="logo"></a>
+            </div>
+            <ul>
+                <li><a href="./about.html" >About</a></li>
+                <li><a href="#">Program</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Partner</a></li>
+                <li><a href="#">News</a></li>
+                <li ><a href="#" class="conference">Conference</a></li>
+            </ul>
+        </div>
+   </nav> 
+   
+   <header class="event-title">
+    <p class="greeting">"Hello! AspireAfrik welcomes you"</p>
+    <h1 class="headline">FULL-STACK WEB DEVELOPMENT PROGRAM, 2022 SESSION </h1>
+   </header>
+   <article>
+    <p class="event-desc">As it is our custom, quarterly we as a front leading tech company regularly roles out newest and trending technologies each year. It's years event has well over 300 partcipicants from different countries in Africa.</p>
+   <h2 class="event-date">2020.10.12 (MON) ~ 15(WED)</h2>
+   <p class="venue"> @AspireAfrik Ltd., Kudirat Abiola Expressway, Lagos, Nigeria</p>
+</article>
+<main class="cards">
+    <h3 class="main-program">Main Program</h3>
+    <div class="red-line"></div>
+    <div class="program-list">
+        <div class="lecture live">
+            <img src="./images/icon1.png" alt="lecture">
+            <h4 class="p1">Lecture</h4>
+            <p class="program-desc">Experience interactive sessions in groups with workbooks.</p>
+        </div>
+        <div class="programs live">
+            <img src="./images/icon2.png" alt="lecture">
+            <h4 class="p1">Programs</h4>
+            <p class="program-desc">Well-tailored programs in Javaascript, Ruby, React, Rails & Databases</p>
+        </div>
+        <div class="forum live">
+            <img src="./images/icon3.png" alt="lecture">
+            <h4 class="p1">Forum</h4>
+            <p class="program-desc">Join our online forum see what others are saying about our programs.</p>
+        </div>
+        <div class="workshops live">
+            <img src="./images/icon4.png" alt="lecture">
+            <h4 class="p1">Workshops</h4>
+            <p class="program-desc">Our Workshops offer opportunity for collaborators to brainstorm.</p>
+        </div>
+        <div class="collaboration live">
+            <img src="./images/icon5.png" alt="lecture">
+            <h4 class="p1">Collaboration</h4>
+            <p class="program-desc">Collaborate Onsite and Offsite through Pair-programming.</p>
+        </div>
+    </div>
+    <div class="register"><p>2022 Edition <br>Register Now!</p></div>
+</main>
+<footer>
+    <h3 class="speaker-main">Featured Speakers</h3>
+    <div class="red-line"></div>
+    <div class="speaker-list show-more">
+        
+    </div>
+    <button type="submit" class="more">More &nbsp; <i class="fa-light fa-angle-down"  ></i></button>
+</footer>
+<div class="sponsor">
+    <h2 class="main-program">Partners</h2>
+    <div class="red-line"></div>
+    <div class="partners">
+        <div class="sponsor-name">
+            <span class="material-icons">all_inclusive</span>
+            <p>iNfiniTy</p>
+        </div>
+        <div class="sponsor-name">
+            <span class="material-icons">done_all</span>
+            <p>techNode+</p>
+        </div>
+        <div class="sponsor-name">
+            <span class="material-icons">install_desktop</span>
+            <p>digitTech</p>
+        </div>
+        <div class="sponsor-name">
+            <span class="material-icons">duo</span>
+            <p>duo technologies</p>
+        </div>
+    </div>
+</div>
+<div class="imprint">
+    <div class="my-logo">
+    <img src="./images/my-logo.png" alt="">
+    <p>&copy; AspireAfrik int'l Ltd. Lagos, Nigeria <br>2022 Full-Stack Web Development Program</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
