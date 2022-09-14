@@ -1,11 +1,13 @@
 @import url("http://fonts.cdnfonts.com/css/cocogoose");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
 * {
   box-sizing: border-box;
 }
 
 nav {
   grid-area: menubar;
+  padding-left: 2rem;
 }
 
 header {
@@ -24,7 +26,7 @@ main {
 footer {
   grid-area: footer;
   background-color: #fff;
-  padding: 1rem;
+  padding: 1rem 1rem 2.5rem 1rem;
 }
 
 .sponsor {
@@ -55,6 +57,13 @@ Style for the mobile menu Overlay
   font-weight: 600;
 }
 
+.material-icons {
+  color: #d3d3d3;
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
 .mobile-menu .material-icons {
   font-size: 2.5rem;
   padding-top: 1rem;
@@ -67,10 +76,12 @@ Style for the mobile menu Overlay
   padding: 0;
   margin-top: 2.5rem;
 }
+
 .mobile-menu a {
   text-decoration: none;
   color: #fff;
 }
+
 .mobile-menu li {
   padding: 2rem;
 }
@@ -93,10 +104,6 @@ p {
   font: 100% "lato", sans-serif;
 }
 
-nav {
-  padding-left: 2rem;
-}
-
 .greeting {
   font: 100% "lato", sans-serif;
   font-size: 1.2rem;
@@ -107,7 +114,6 @@ nav {
 .headline {
   background: url(./images/txt1-clip.png);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
   font: 100% "cocogoose", sans-serif;
   font-size: 2.5rem;
@@ -171,7 +177,11 @@ nav {
   height: 58px;
 }
 
-.lecture, .programs, .workshops, .collaboration, .forum {
+.lecture,
+.programs,
+.workshops,
+.collaboration,
+.forum {
   display: flex;
   justify-content: space-around;
   padding: 1rem;
@@ -193,7 +203,7 @@ nav {
   cursor: pointer;
 }
 
-/* Styles for the Featured Speakers*/
+/* Styles for the Featured Speakers */
 .speaker {
   display: flex;
   margin-top: 2rem;
@@ -232,6 +242,7 @@ nav {
   font-weight: 600;
   margin: 0;
 }
+
 .speaker-bio .title {
   font: 100% "lato", sans-serif;
   font-style: italic;
@@ -239,6 +250,7 @@ nav {
   color: #ec5242;
   margin: 5px;
 }
+
 .speaker-bio .role {
   font-size: 0.8rem;
   color: #272a31;
@@ -273,14 +285,7 @@ nav {
   color: #ec5242;
 }
 
-/* Sponsors section*/
-.material-icons {
-  color: #d3d3d3;
-  font-size: 3.5rem;
-  font-weight: 600;
-  margin-bottom: 0;
-}
-
+/* Sponsors section */
 .partners {
   display: flex;
   justify-content: space-between;
@@ -320,38 +325,50 @@ Home page media query
     grid-template-areas: "menubar" "header" "article" "main" "footer" "sponsor" "imprint";
     grid-template-columns: 1fr;
     margin: 0 auto;
-    background: url("./images/bg-desktop.png") no-repeat;
+    background: url("/images/bg-desktop.png") no-repeat;
     height: max-content;
     padding: 0.5rem;
   }
+
   .greeting {
     font-size: 2rem;
     padding-left: 3.5rem;
   }
+
   .event-title {
     color: #ec5242;
     padding-top: 11rem;
   }
+
   .headline {
     font-size: 2.5rem;
     padding-left: 4.5rem;
   }
+
   article {
     padding-left: 4.5rem;
     padding-right: 4.5rem;
   }
+
   .event-desc {
     margin-top: 3rem;
     padding: 2rem;
   }
+
   main {
     margin-top: 6rem;
   }
+
   .program-list {
     display: flex;
     padding: 2.5rem 4.5rem;
   }
-  .lecture, .programs, .collaboration, .forum, .workshops {
+
+  .lecture,
+  .programs,
+  .collaboration,
+  .forum,
+  .workshops {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -359,13 +376,16 @@ Home page media query
     gap: 0;
     justify-content: start;
   }
+
   .live:hover {
     border: 1px solid #fafafa;
   }
+
   .program-desc {
     width: 100%;
     text-align: center;
   }
+
   .speaker-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -374,6 +394,7 @@ Home page media query
     gap: 2rem;
     padding: 1rem 4.5rem;
   }
+
   .desktop {
     position: fixed;
     top: 0;
@@ -386,15 +407,18 @@ Home page media query
     padding: 0.5rem;
     z-index: 10;
   }
+
   .desktop img {
     width: 20px;
   }
+
   .desktop a {
     text-decoration: none;
     font: 100% "lato", sans-serif;
     font-size: 0.8rem;
     color: #fff;
   }
+
   .desktop-menu {
     position: fixed;
     top: 32px;
@@ -406,64 +430,82 @@ Home page media query
     padding: 0.5rem;
     z-index: 10;
   }
+
   .desktop-menu ul {
     display: flex;
     list-style-type: none;
     gap: 20px;
     padding: 0;
   }
+
   .desktop-menu li {
     font: 100% "lato", sans-serif;
   }
+
   .desktop-menu a {
     text-decoration: none;
     color: #272a31;
   }
+
   .desktop-menu img {
     width: 80px;
   }
+
   .conference {
     border: 2px solid #ec5242;
     padding: 0.5rem;
   }
+
   .see-more {
     display: none;
   }
 }
+
 @media (max-width: 768px) {
   body {
     display: grid;
     grid-template-areas: "menubar" "header" "article" "main" "footer" "sponsor" "imprint";
     grid-template-columns: 1fr;
     margin: 0 auto;
-    background: url("./images/mobile-bg.png") no-repeat;
+    background: url("/images/mobile-bg.png") no-repeat;
     background-size: 100%;
     padding: 0.5rem;
   }
+
   * {
     overflow-x: hidden;
   }
+
   .desktop {
     display: none;
   }
+
   .desktop-menu {
     display: none;
   }
+
   .show-more {
     text-align: left;
   }
 }
+
 body {
   display: grid;
   grid-template-areas: "menubar" "header" "article" "main" "footer" ".sponsors" ".imprint";
 }
 
-main {
+.main2 {
   background: #fff;
   color: #272a31;
+  border-bottom: 1px solid #d3d3d3;
 }
 
-.main-program {
+.main2-program {
+  text-align: center;
+  font: 100% "lato", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
   color: #272a31;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -478,7 +520,12 @@ main {
   padding: 2rem;
 }
 
-.sponsor .main-program {
+.sponsor .main-partner {
+  text-align: center;
+  font: 100% "lato", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
   color: #fff;
 }
 
@@ -528,10 +575,6 @@ main {
   text-align: center;
 }
 
-footer {
-  padding-bottom: 2.5rem;
-}
-
 .prev-year {
   font: 100% "lato", sans-serif;
   font-weight: 600;
@@ -560,23 +603,22 @@ Styles about page media query begins here
     line-height: 50px;
     padding-left: 4.5rem;
   }
+
   .greeting2 {
     display: none;
   }
+
   .event-desc {
     background: #fafafa;
   }
+
   .edition-container {
     flex-direction: row;
     width: 70%;
     margin: 0 auto;
   }
-  main {
-    border-bottom: 1px solid #d3d3d3;
-  }
+
   .sponsor {
     margin-top: 4rem;
   }
 }
-
-/*# sourceMappingURL=styles.css.map */
