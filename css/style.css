@@ -10,7 +10,7 @@ body {
   grid-template-areas: "menubar" "header" "article" "main" "footer" "sponsor" "imprint";
   grid-template-columns: 1fr;
   margin: 0 auto;
-  background: url("/images/mobile-bg.png") no-repeat;
+  background: url("../images/mobile-bg.png") no-repeat;
   background-size: 100%;
   padding: 0.5rem;
 }
@@ -122,7 +122,7 @@ p {
 }
 
 .headline {
-  background: url('/images/txt1-clip.png');
+  background: url('../images/txt1-clip.png');
   -webkit-background-clip: text;
   color: transparent;
   font: 100% "cocogoose", sans-serif;
@@ -336,7 +336,7 @@ Home page media query
     grid-template-areas: "menubar" "header" "article" "main" "footer" "sponsor" "imprint";
     grid-template-columns: 1fr;
     margin: 0 auto;
-    background: url("/images/bg-desktop.png") no-repeat;
+    background: url("../images/bg-desktop.png") no-repeat;
     height: max-content;
     padding: 0.5rem;
   }
@@ -467,7 +467,7 @@ Home page media query
     padding: 0.5rem;
   }
 
-  .more {
+  .more  {
     display: none;
   }
 }

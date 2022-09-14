@@ -314,7 +314,7 @@ Home page media query
     grid-template-areas: "menubar" "header" "article" "main" "footer" "sponsor" "imprint";
     grid-template-columns: 1fr;
     margin: 0 auto;
-    background: url("/images/bg-desktop.png") no-repeat;
+    background: url("../images/bg-desktop.png") no-repeat;
     height: max-content;
     padding: 0.5rem;
   }
@@ -548,14 +548,14 @@ body {
 .edition-2021 {
   width: 75%;
   padding: 1rem;
-  background: linear-gradient(to right, rgba(160, 11, 11, 0.7), rgba(160, 11, 11, 0.7)), url("/images/edition2021.png") no-repeat;
+  background: linear-gradient(to right, rgba(160, 11, 11, 0.7), rgba(160, 11, 11, 0.7)), url("../images/edition2021.png") no-repeat;
   background-size: cover;
 }
 
 .edition-2020 {
   width: 75%;
   padding: 1rem;
-  background: linear-gradient(to right, rgba(160, 11, 11, 0.7), rgba(160, 11, 11, 0.7)), url("/images/edition2020.png") no-repeat;
+  background: linear-gradient(to right, rgba(160, 11, 11, 0.7), rgba(160, 11, 11, 0.7)), url("../images/edition2020.png") no-repeat;
   background-size: cover;
 }
 
