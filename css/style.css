@@ -466,6 +466,10 @@ Home page media query
     border: 2px solid #ec5242;
     padding: 0.5rem;
   }
+
+  .more {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
