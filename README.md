@@ -11,7 +11,7 @@
 ![Partners](images/partners.png)
 ![Mobile view](images/mobile-view.png)
 ![Mobile main](images/mobile-main.png)
-![Mobile menu](images/mobile-menu.png)
+![Mobile Menu](images/mobile-menu.png)
 
  ## Learning objectives
 
