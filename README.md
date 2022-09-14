@@ -36,7 +36,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://Okechukwu-muokwugwo/Okechukwu.github.io/)
+[Live Demo Link](https://okechukwu-muokwugwo.github.io/Capstone-html-css-Js/)
 
 ## Video Presentation
 
@@ -61,7 +61,7 @@ git clone <code>https://github.co/Okechukwu-muokwugwo/capstone-hmtl-css-js.git</
 👤 Okechukwu Muokwugwo
 
 - GitHub: [@Okechukwu-muokwugwo](https://github.com/Okechukwu-muokwugwo)
-- LinkedIn: [@Linkinedin](https://www.linkedin.com/in/okei.muokwugwo/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/okei.muokwugwo/)
 - Twitter: [@excel4eva](https://twitter.com/excel4eva)
 
 
