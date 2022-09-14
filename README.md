@@ -6,13 +6,13 @@
 
 ## Underneath are attached snapshoots of the web interfaces
 
-[alt Homepage Desktop]('../images/homepage-desktop.png')
-[alt Desktop Main]('../images/desktop-main.png')
-[alt Partner section]('../images/partners.png')
-[alt Speakers' section]('../images/speakers-desktop.png')
-[alt Mobile main]('../images/mobile-main.png')
-[alt Mobile menu]('./images/mobile-menu.png')
-[alt Mobile view]('../images/mobile-view.png')
+[Homepage Desktop]('../images/homepage-desktop.png')
+[Desktop Main]('../images/desktop-main.png')
+[Partner section]('../images/partners.png')
+[Speakers' section]('../images/speakers-desktop.png')
+[Mobile main]('../images/mobile-main.png')
+[Mobile menu]('./images/mobile-menu.png')
+[Mobile view]('../images/mobile-view.png')
 
  ## Learning objectives
 
