@@ -5,14 +5,13 @@
 > This project highlights AspireAfrik International Ltd as a leading IT firma in web development and with the latest technologies available in the industry. &copy; AspireAfrik International yearly sources renowed IT technocrats around the world to training up-coming web developers.
 
 ## Underneath are attached snapshoots of the web interfaces
-
-[Homepage Desktop]('../images/homepage-desktop.png')
-[Desktop Main]('../images/desktop-main.png')
-[Partner section]('../images/partners.png')
-[Speakers' section]('../images/speakers-desktop.png')
-[Mobile main]('../images/mobile-main.png')
-[Mobile menu]('./images/mobile-menu.png')
-[Mobile view]('../images/mobile-view.png')
+![Homepage](images/homepage-desktop.png)
+![Desktop main](images/desktop-main.png)
+![Speakers' section](images/speakers-desktop.png)
+![Partners](images/partners.png)
+![Mobile view](images/mobile-view.png)
+![Mobile main](images/mobile-main.png)
+![Mobile menu](images/mobile-menu.png)
 
  ## Learning objectives
 
