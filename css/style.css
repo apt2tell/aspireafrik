@@ -7,7 +7,14 @@
 
 body {
   display: grid;
-  grid-template-areas: "menubar" "header" "article" "main" "footer" "sponsor" "imprint";
+  grid-template-areas:
+    "menubar"
+    "header"
+    "article"
+    "main"
+    "footer"
+    "sponsor"
+    "imprint";
   grid-template-columns: 1fr;
   margin: 0 auto;
   background: url("../images/mobile-bg.png") no-repeat;
