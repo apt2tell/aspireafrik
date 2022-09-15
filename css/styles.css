@@ -37,6 +37,7 @@ footer {
 .imprint {
   grid-area: imprint;
   background: #fff;
+  padding-top: 2rem;
 }
 
 /*
@@ -299,8 +300,7 @@ p {
 }
 
 .my-logo img {
-  width: 200px;
-  height: auto;
+  width: 100px;
 }
 
 /*
@@ -346,6 +346,13 @@ Home page media query
 
   main {
     margin-top: 6rem;
+  }
+
+  .imprint {
+    background: #272a31;
+    color: #d3d3d3;
+    padding: 2rem 2rem 2rem 5rem;
+    margin-left: 3rem;
   }
 
   .program-list {
@@ -608,6 +615,6 @@ Styles for about page media query begins here
   }
 
   .sponsor {
-    margin-top: 4rem;
+    display: none;
   }
 }
