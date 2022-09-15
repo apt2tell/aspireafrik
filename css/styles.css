@@ -314,7 +314,7 @@ Home page media query
     grid-template-areas: "menubar" "header" "article" "main" "footer" "sponsor" "imprint";
     grid-template-columns: 1fr;
     margin: 0 auto;
-    background: url("/images/bg-desktop.png") no-repeat;
+    background: url('/images/bg-desktop.png') no-repeat;
     height: max-content;
     padding: 0.5rem;
   }
