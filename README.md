@@ -33,7 +33,7 @@
 
 [Live Demo Link](https://screenrec.com/share/q7ubjVkaAS)
 
-> You can view the project here: 
+> You can view the project here: <code>https://okechukwu-muokwugwo.github.io/Capstone-html-css-Js/</code>
 
 ## Getting Started
 
