@@ -34,11 +34,9 @@
 
 ## Live Demo
 
-[Live Demo Link](https://okechukwu-muokwugwo.github.io/Capstone-html-css-Js/)
+[Live Demo Link](https://screenrec.com/share/q7ubjVkaAS)
 
-## Video Presentation
-
-[Video Presentation Link](https://www.loom.com/)
+> You can view the project here: 
 
 ## Getting Started
 
