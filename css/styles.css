@@ -351,8 +351,7 @@ Home page media query
   .imprint {
     background: #272a31;
     color: #d3d3d3;
-    padding: 2rem 2rem 2rem 5rem;
-    margin-left: 3rem;
+    padding: 2rem 2rem 2rem 8.5rem;
   }
 
   .program-list {
