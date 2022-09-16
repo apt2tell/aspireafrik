@@ -1,13 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone: ASPIREAFRIK WEB DEVELOPMENT PROGRAM, 2022 SESSION
+# Capstone: AspireAfrik&reg; WEB DEVELOPMENT PROGRAM, 2022 SESSION
 
 > This project highlights AspireAfrik International Ltd as a leading IT firma in web development and with the latest technologies available in the industry. &copy; AspireAfrik International yearly sources renowed IT technocrats around the world to training up-coming web developers.
 
 ## Underneath are attached snapshoots of the web interfaces
-
-
-
+![Homepage Desktop view](images/desktop-view.png)
+![About page mail](images/about-page-main.png)
+![About footer](images/about-page-footer.png)
+![Mobile view](images/mobile-view.png)
+![Menu view](images/mobile-menu.png)
  ## Learning objectives
 
  - Use semantic HTML tags.
@@ -29,11 +31,9 @@
 
 ## Live Demo
 
-[Live Demo Link](https://Okechukwu-muokwugwo/Okechukwu.github.io/)
+[Live Demo Link](https://screenrec.com/share/q7ubjVkaAS)
 
-## Video Presentation
-
-[Video Presentation Link](https://www.loom.com/)
+> You can view the project here: <code>https://okechukwu-muokwugwo.github.io/Capstone-html-css-Js/</code>
 
 ## Getting Started
 
@@ -54,7 +54,7 @@ git clone <code>https://github.co/Okechukwu-muokwugwo/capstone-hmtl-css-js.git</
 👤 Okechukwu Muokwugwo
 
 - GitHub: [@Okechukwu-muokwugwo](https://github.com/Okechukwu-muokwugwo)
-- LinkedIn: [@Linkinedin](https://www.linkedin.com/in/okei.muokwugwo/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/okei.muokwugwo/)
 - Twitter: [@excel4eva](https://twitter.com/excel4eva)
 
 
