@@ -1,8 +1,3 @@
-@font-face {
-  font-family: 'cocogoose';
-  src: url('/fonts.cdnfonts.com/css/cocogoose');
-}
-
 * {
   box-sizing: border-box;
 }
@@ -54,7 +49,7 @@ Style for the mobile menu Overlay
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: #ec5242;
+  background: rgba(255, 50, 25);
   font: 100% "lato", sans-serif;
   font-size: 2rem;
   font-weight: 600;
@@ -71,6 +66,7 @@ Style for the mobile menu Overlay
   font-size: 2.5rem;
   padding-top: 1rem;
   padding-right: 1rem;
+  float: right;
   color: #fff;
 }
 
@@ -86,16 +82,21 @@ Style for the mobile menu Overlay
 }
 
 .mobile-menu li {
-  padding: 2rem;
+  padding: 1.5rem;
+  text-align: center;
 }
 
 .overlay {
-  display: flex;
-  justify-content: space-between;
+  width: auto;
 }
 
 .overlay img {
   width: 80px;
+}
+
+.mobile-conf {
+  border: 1px solid #272a31;
+  padding: .7rem;
 }
 
 /*
@@ -423,8 +424,9 @@ Home page media query
     display: flex;
     width: 100%;
     justify-content: space-between;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.8);
     padding: 0.5rem;
+    box-shadow: 0 2px 1px 2px rgba(0, 0, 0, .2);
     z-index: 10;
   }
 
