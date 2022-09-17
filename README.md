@@ -53,9 +53,9 @@ git clone <code>https://github.co/Okechukwu-muokwugwo/capstone-hmtl-css-js.git</
 
 👤 Okechukwu Muokwugwo
 
-- GitHub: [@Okechukwu-muokwugwo](https://github.com/Okechukwu-muokwugwo)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/okei.muokwugwo/)
-- Twitter: [@excel4eva](https://twitter.com/excel4eva)
+- GitHub: [GitHub](https://github.com/Okechukwu-muokwugwo)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/okeimuokwugwo/)
+- Twitter: [Twitter](https://twitter.com/excel4eva)
 
 
 ## 🤝 Contributing
