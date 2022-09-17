@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'cocogoose';
+  src: url('/fonts.cdnfonts.com/css/cocogoose');
+}
+
 * {
   box-sizing: border-box;
 }
