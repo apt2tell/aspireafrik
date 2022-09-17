@@ -31,7 +31,7 @@
 
 ## Live Demo
 
-> You can view the project [Live Demo]: (https://okechukwu-muokwugwo.github.io/Capstone-html-css-Js/)
+> You can view the project [Live Demo](https://okechukwu-muokwugwo.github.io/Capstone-html-css-Js/)
 
 > [Presentation](https://screenrec.com/share/q7ubjVkaAS)
 
