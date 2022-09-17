@@ -18,10 +18,10 @@ exitMobileMenu();
 
 // function to pouplate Mobile menu
 const menuList = [{
+  home: 'Home',
   about: 'About',
   program: 'program',
   reg: 'Register',
-  sponsor: 'Partner',
   news: 'News',
   conf: 'Conference',
 },
@@ -30,15 +30,14 @@ const menuList = [{
 const displayMenu = menuList.map((list) => `
 
 <div class="overlay">
-<a href="./index.html"><img src="./images/my-logo.png"></a>
 <a href="#" onclick="exitMobileMenu()"><span class="material-icons" id="close">close</span></a>
 </div>
 <ul class="mobile-links">
+        <li><a href='./index.html'>${list.home}</a></li>
         <li><a href='./about.html'>${list.about}</a></li>
         <li><a href="#">${list.program}</a></li>
         <li><a href="#">${list.reg}</a></li>
-        <li><a href="#">${list.sponsor}</a></li>
-        <li><a href="#">${list.conf}</a></li>
+        <li><a href="#" class="mobile-conf">${list.conf}</a></li>
     </ul>`);
 
 const overlay = document.querySelector('.mobile-menu');
