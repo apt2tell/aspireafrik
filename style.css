@@ -65,7 +65,7 @@ Style for the mobile menu Overlay
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(255, 50, 25);
+  background: rgba(236,82,66, .95);
   font: 100% "lato", sans-serif;
   font-size: 2rem;
   font-weight: 600;
@@ -107,7 +107,7 @@ Style for the mobile menu Overlay
 }
 
 .mobile-conf {
-  border: 1px solid #272a31;
+  border: 1px solid #d3d3d3;
   padding: .7rem;
 }
 
@@ -133,7 +133,6 @@ p {
   color: transparent;
   font: 100% "cocogoose", sans-serif;
   font-size: 2.5rem;
-  font-weight: 700;
   margin-bottom: 2px;
   line-height: 35px;
   padding-left: 2rem;
@@ -150,6 +149,7 @@ p {
 .event-date {
   font: 100% "cocogoose", sans-serif;
   font-size: 1.5rem;
+  font-weight: 600;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   margin-bottom: 0;
