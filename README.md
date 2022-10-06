@@ -2,7 +2,7 @@
 
 # Capstone: AspireAfrik&reg; WEB DEVELOPMENT PROGRAM, 2022 SESSION
 
-> This project highlights AspireAfrik International Ltd as a leading IT firma in web development and with the latest technologies available in the industry. &copy; AspireAfrik International yearly sources renowed IT technocrats around the world to training up-coming web developers.
+> This project highlights AspireAfrik International Ltd as a leading IT firma in web development and with the latest technologies available in the industry. AspireAfrik International&copy; yearly sources renowed IT technocrats around the world for training up-coming web developers.
 
 ## Underneath are attached snapshoots of the web interfaces
 ![Homepage Desktop view](images/desktop-view.png)
