@@ -31,7 +31,7 @@
 
 ## Live Demo
 
-> You can view the project [Live Demo](https://okechukwu-muokwugwo.github.io/aspireafrik/)
+> You can view the project [Live Demo](https://sparkly-aspireafrik.netlify.app/)
 
 > [Presentation](https://screenrec.com/share/q7ubjVkaAS)
 
