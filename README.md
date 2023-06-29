@@ -2,7 +2,7 @@
 
 # Capstone: AspireAfrik&reg; WEB DEVELOPMENT PROGRAM, 2022 SESSION
 
-> This project highlights AspireAfrik International Ltd as a leading IT firma in web development and with the latest technologies available in the industry. AspireAfrik International&copy; yearly sources renowed IT technocrats around the world for training up-coming web developers.
+> I utilized JavaScript, HTML5, and CSS3 to design a website for AspireAfrik&reg; International Ltd that showcases their programs, expert resource persons, and incorporates the latest web development technologies.
 
 ## Underneath are attached snapshoots of the web interfaces
 ![Homepage Desktop view](images/desktop-view.png)
@@ -31,7 +31,7 @@
 
 ## Live Demo
 
-> You can view the project [Live Demo](https://okechukwu-muokwugwo.github.io/Capstone-html-css-Js/)
+> You can view the project [Live Demo](https://okechukwu-muokwugwo.github.io/aspireafrik/)
 
 > [Presentation](https://screenrec.com/share/q7ubjVkaAS)
 
@@ -42,12 +42,12 @@
 #### Step 1:
 - Clone this repository in your local machine terminal:
 
-git clone <code>https://github.co/Okechukwu-muokwugwo/capstone-hmtl-css-js.git</code>
+git clone <code>https://github.co/Okechukwu-muokwugwo/aspireafrik.git</code>
 
 
 #### Step 2:
 
-- Open the html pages in a web browser preferrably Chrome.
+- Then launch <code>live server</code> or simply locate <code>index.html</code> and open with your preferred browser.
 
 ## Authors
 
